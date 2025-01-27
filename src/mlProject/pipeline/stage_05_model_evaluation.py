@@ -4,9 +4,6 @@ from mlProject import logger
 
 STAGE_NAME = "Model evaluation stage"
 
-import mlflow
-mlflow.set_tracking_uri("http://localhost:8050")
-
 class ModelEvaluationTrainingPipeline:
     def __init__(self):
         pass
