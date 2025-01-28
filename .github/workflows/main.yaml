@@ -13,7 +13,8 @@ permissions:
 jobs:
   integration:
     name: Continuous Integration
-    runs-on: ubuntu-latest
+    runs-on: ip-172-31-41-8
+    #runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
