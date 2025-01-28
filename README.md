@@ -125,7 +125,7 @@ Save the URI: 102765571952.dkr.ecr.us-east-1.amazonaws.com/mlproj
 ## 5. Open EC2 and Install docker in EC2 Machine:
 	
 	
-	#optinal
+	# optinal
 
 	sudo apt-get update -y
 
